@@ -130,3 +130,31 @@
    | 
   <a href="https://jigsaw.w3.org/css-validator/check/referer">CSS 2.1</a>
 </div>
+
+<!-- Cookie information -->
+<script src="/static/js/cookiechoices.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function(event) {
+    cookieChoices.showCookieConsentBar('This website uses cookies to offer you the best experience. By using our website, you agree to our use of cookies in accordance to our cookie policy.',
+      'OK, I agree', 'Learn more', '/cookies/');
+  });
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  if (!cookieChoices.cookiesEnabled()) {
+    _paq.push(['disableCookies']);
+  }
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://gecogedi.dimai.unifi.it/piwik/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 1]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
+    g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="https://gecogedi.dimai.unifi.it/piwik/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
