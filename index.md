@@ -2,9 +2,14 @@
 </p>
 
 <p>
-
-
-
+  
+<h2>Authors</h2>
+| Name | Surname | Town | Address | civic |
+|-----------|:-----------:|-----------:|  
+|paolino|paperino|paperopoli|casetta in periferia|313|
+|paperone|depaperoni|paperopoli|deposito sulla collina| 1|
+|gastone|fortunato|paperopoli|via dei quadrifogli|13|
+|mickey|topolino|topolinia|via delle ruote|3|
 
 </p>
 
